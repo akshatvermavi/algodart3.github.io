@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="https://vocal-to-local.com/wp-content/uploads/2020/06/vocal-local-main2.png">
+    <title>Vocal for Local</title>
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <link rel="icon" type="image/x-icon" href="favicon.ico">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 496 496" style="enable-background:new 0 0 496 496;" xml:space="preserve">
+              <path style="fill:#F74D19;" d="M12.8,24C5.6,24,0,29.6,0,36.8v317.6c0,7.2,5.6,12.8,12.8,12.8s12.8-5.6,12.8-12.8V36.8  C25.6,29.6,19.2,24,12.8,24z"/>
+              <path style="fill:#FF7A17;" d="M71.2,89.6c-7.2,0-12.8,5.6-12.8,12.8v252c0,7.2,5.6,12.8,12.8,12.8c7.2,0,12.8-5.6,12.8-12.8v-252  C84,95.2,78.4,89.6,71.2,89.6z"/>
+              <path style="fill:#F74D19;" d="M130.4,142.4c-7.2,0-12.8,5.6-12.8,12.8v200c0,7.2,5.6,12.8,12.8,12.8s12.8-5.6,12.8-12.8v-200  C143.2,148,137.6,142.4,130.4,142.4z"/>
+              <path style="fill:#FF7A17;" d="M188.8,251.2c-7.2,0-12.8,5.6-12.8,12.8v90.4c0,7.2,5.6,12.8,12.8,12.8s12.8-5.6,12.8-12.8V264  C201.6,256.8,196,251.2,188.8,251.2z"/>
+              <path style="fill:#F74D19;" d="M248,198.4c-7.2,0-12.8,5.6-12.8,12.8v143.2c0,7.2,5.6,12.8,12.8,12.8c7.2,0,12.8-5.6,12.8-12.8  V211.2C260.8,204,255.2,198.4,248,198.4z"/>
+              <path style="fill:#FF7A17;" d="M307.2,156.8c-7.2,0-12.8,5.6-12.8,12.8v184.8c0,7.2,5.6,12.8,12.8,12.8c7.2,0,12.8-5.6,12.8-12.8  V169.6C319.2,162.4,313.6,156.8,307.2,156.8z"/>
+              <path style="fill:#F74D19;" d="M365.6,60c-7.2,0-12.8,5.6-12.8,12.8v281.6c0,7.2,5.6,12.8,12.8,12.8s12.8-5.6,12.8-12.8V72.8  C378.4,65.6,372.8,60,365.6,60z"/>
+              <path style="fill:#FF7A17;" d="M424.8,28.8c-7.2,0-12.8,5.6-12.8,12.8v312.8c0,7.2,5.6,12.8,12.8,12.8c7.2,0,12.8-5.6,12.8-12.8  V40.8C436.8,34.4,431.2,28.8,424.8,28.8z"/>
+              <path style="fill:#F74D19;" d="M483.2,160.8c-7.2,0-12.8,5.6-12.8,12.8v180.8c0,7.2,5.6,12.8,12.8,12.8s12.8-5.6,12.8-12.8V173.6  C496,166.4,490.4,160.8,483.2,160.8z"/>
+              <path style="fill:#717B7C;" d="M59.2,357.6v101.6c0,7.2,5.6,12.8,12.8,12.8c7.2,0,12.8-5.6,12.8-12.8V357.6H59.2z"/>
+              <g>
+                <path style="fill:#3F4A4C;" d="M0,357.6v101.6c0,7.2,5.6,12.8,12.8,12.8s12.8-5.6,12.8-12.8V357.6H0z"/>
+                <path style="fill:#3F4A4C;" d="M117.6,357.6v101.6c0,7.2,5.6,12.8,12.8,12.8s12.8-5.6,12.8-12.8V357.6H117.6z"/>
+              </g>
+              <path style="fill:#717B7C;" d="M176.8,357.6v101.6c0,7.2,5.6,12.8,12.8,12.8s12.8-5.6,12.8-12.8V357.6H176.8z"/>
+              <path style="fill:#3F4A4C;" d="M235.2,357.6v101.6c0,7.2,5.6,12.8,12.8,12.8c7.2,0,12.8-5.6,12.8-12.8V357.6H235.2z"/>
+              <path style="fill:#717B7C;" d="M294.4,357.6v101.6c0,7.2,5.6,12.8,12.8,12.8c7.2,0,12.8-5.6,12.8-12.8V357.6H294.4z"/>
+              <path style="fill:#3F4A4C;" d="M352.8,357.6v101.6c0,7.2,5.6,12.8,12.8,12.8s12.8-5.6,12.8-12.8V357.6H352.8z"/>
+              <path style="fill:#717B7C;" d="M412,357.6v101.6c0,7.2,5.6,12.8,12.8,12.8c7.2,0,12.8-5.6,12.8-12.8V357.6H412z"/>
+              <path style="fill:#3F4A4C;" d="M470.4,357.6v101.6c0,7.2,5.6,12.8,12.8,12.8s12.8-5.6,12.8-12.8V357.6H470.4z"/>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              <g>
+              </g>
+              </svg>
+            <span class="ml-3 text-xl">Grow India Grow</span>
+          </a>
+          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+            <a href="http://www.pmkvyofficial.org/" class="mr-5 hover:text-gray-900">PMKVY</a>
+            <a href="https://scholarships.gov.in/"class="mr-5 hover:text-gray-900">NSP</a>
+            <a href="https://ekisans.com/" class="mr-5 hover:text-gray-900">E-KISAN</a>
+            <a href="http://www.startupindia.gov.in/" class="mr-5 hover:text-gray-900">STARTUP INDIA</a>
+          </nav>
+          <a href="https://indbiz.gov.in/government-targets-vision-india-2047-by-may-with-targets-for-this-decade/" class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Vision 2047</a>
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+          <div class="flex w-full mb-20 flex-wrap">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">The young and growing India</h1>
+          </div>On 12th May 2020, Prime Minister Narendra Modi televised an address to the nation. As part of his speech, he announced a financial package of Rs. 20 lakh crore to revive India’s stalled economy after the COVID-19 pandemic. Simultaneously, this move aimed to kick-start the process of making India self-reliant through a ‘Vocal for Local’ call.
+          <hr style="width:50%">
+
+          <div class="flex flex-wrap md:-m-2 -m-1">
+            <div class="flex flex-wrap w-1/2">
+              <div class="md:p-2 p-1 w-1/2">
+                <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://source.unsplash.com/501x301/?indian flag">
+              </div>
+              <div class="md:p-2 p-1 w-1/2">
+                <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://source.unsplash.com/600x360/?taj mahal">
+              </div>
+              <div class="md:p-2 p-1 w-full">
+                <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://www.tatacapital.com/blog/wp-content/uploads/2020/05/vocal-for-local.png">
+              </div>
+            </div>
+            <div class="flex flex-wrap w-1/2">
+              <div class="md:p-2 p-1 w-full">
+                <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://www.tatacapital.com/blog/wp-content/uploads/2020/05/vocal-for-local-india-768x399.png">
+              </div>
+              <div class="md:p-2 p-1 w-1/2">
+                <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://source.unsplash.com/502x302/?roti chaval">
+              </div>
+              <div class="md:p-2 p-1 w-1/2">
+                <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://source.unsplash.com/503x303/?india gate">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Vocal for local</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Vocal for local comes as a strategy beneficial particularly for some sectors. It stands for the initiative asking people to be promoting their local products to make them global. The use of local products will not only boost the economy but will also make sure that the crisis people are in in is taken care of.</p>
+          </div>
+          <div class="flex flex-wrap -m-2">
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://source.unsplash.com/503x303/?cripto currency">
+                <div class="flex-grow">
+                   <a href="https://www.psmarketresearch.com/market-analysis/india-digital-transformation-market" class="text-gray-900 title-font font-medium">Digital Marketing </a></h2>
+                  <p class="text-gray-500"></p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://th.bing.com/th/id/OIP.YfXvwOAFW33uDXqFo_osUAHaEJ?w=266&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7/84x84">
+                <div class="flex-grow">
+                  <a href="https://www.lessonsatstartup.com/india-successful-entrepreneurs/" class="text-gray-900 title-font font-medium">Indian young entrepreneur</a></h2>
+                  <p class="text-gray-500"></p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://source.unsplash.com/501x301/?business/88x88">
+                <div class="flex-grow">
+                  <a href="http://indianstartups.com/meetups/" class="text-gray-900 title-font font-medium">Indian startups</a></h2>
+                  <p class="text-gray-500"></p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://source.unsplash.com/90x90/?indian tourism">
+                <div class="flex-grow">
+                  <a href="https://tourism.gov.in/" class="text-gray-900 title-font font-medium">Indian tourism</a></h2>
+                  <p class="text-gray-500"></p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://www.bing.com/th?id=OIP.HTA8FJNKegs0DqXAxW93iwAAAA&w=206&h=206&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2/94x94">
+                <div class="flex-grow">
+                  <a href="https://www.education.gov.in/en/minister-page" class="text-gray-900 title-font font-medium">Indian Education system</a></h2>
+                  <p class="text-gray-500"></p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://www.bing.com/th?id=OIP.BDJm8pi-Ki8-2SkE9E67jQHaD1&w=179&h=100&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2/98x98">
+                <div class="flex-grow">
+                  <a href="http://texmin.nic.in/" class="text-gray-900 title-font font-medium">Indian Textile & clothing</a><h2>
+                  <p class="text-gray-500"></p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://th.bing.com/th/id/OIP.rbr9h191vBQKukIS9c270gHaE8?w=272&h=181&c=7&r=0&o=5&dpr=1.1&pid=1.7/100x90">
+                <div class="flex-grow">
+                  <a href="https://www.handicraftsinindia.in/" class="text-gray-900 title-font font-medium">Indian handicrafts</a></h2>
+                  <p class="text-gray-500"></p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://th.bing.com/th/id/OIP.szIDVu9mlzAVKAKxAF_LYwHaHp?w=174&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7/104x94">
+                <div class="flex-grow">
+                  <a href="https://www.mapsofindia.com/maps/india/indian-cuisine-map.html" class="text-gray-900 title-font font-medium">Indian regional cuisine</a></h2>
+                  <p class="text-gray-500"></p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://th.bing.com/th/id/OIP.PiMtX_okD-WbFN24nPm6AAHaEK?w=331&h=186&c=7&r=0&o=5&dpr=1.1&pid=1.7/108x98">
+                <div class="flex-grow">
+                  <a href="https://play.google.com/store/apps/details?id=com.aezowie.vocalforlocalapp&gl=US" class="text-gray-900 title-font font-medium">Vocal for local app</a></h2>
+                  <p class="text-gray-500"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <a href="in"></a>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Team Algodart</h1>
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 md:w-1/2 w-full">
+              <div class="h-full bg-gray-100 p-8 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                </svg>
+                <p class="leading-relaxed mb-6">Hello !! This is the tiny part of the web as to promote the indian local and swadeshi brands, indian legacies globally and Hope you will like our Initiative. I would love to hear suggestion from you .Feel free to contact me !!
+                 akshatvermanike@gmailcom</p>
+                <a class="inline-flex items-center">
+                  <img alt="testimonial" src="https://th.bing.com/th/id/OIP.n5H2GtrRa-Orgf5-MqUA5AHaE7?w=270&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7/107x107" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                  <span class="flex-grow flex flex-col pl-4">
+                    <span class="title-font font-medium text-gray-900">Akshat verma</span>
+                    <span class="text-gray-500 text-sm">Web Developer</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/2 w-full">
+              <div class="h-full bg-gray-100 p-8 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                </svg>
+                <p class="leading-relaxed mb-6">I would like to thank my team members who have contributed to this site via giving such honourable Ideas to add contents in this web. It's an initiative by First Year students of Motilal Nehru National Institute of Technology.</p>
+                <a class="inline-flex items-center">
+                  <img alt="testimonial" src="https://th.bing.com/th?q=Group+of+Friends+Sunset&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=strict&t=1&mw=247/107x107" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                  <span class="flex-grow flex flex-col pl-4">
+                    <span class="title-font font-medium text-gray-900">Vaibhav kansal, Aryaman Agarwal, Ankit Lakhlan</span>
+                    <span class="text-gray-500 text-sm">Adviser and presenters</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>    
+</body>
+</html>
